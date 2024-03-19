@@ -1102,14 +1102,6 @@ Game.Launch=function()
 		Game.Loader.loaded=Game.Init;
 		Game.Loader.Load(['filler.png']);
 	}
-	Game.ErrorFrame=function()
-	{
-		l('javascriptError').innerHTML=https://tolzmwil.github.io/Cookie-Clicker-Source-Code/
-		'<div class="title">Oops. Wrong address!</div>'+
-		'<div>It looks like you\'re accessing Cookie Clicker from another URL than the official one.<br>'+
-		'You can <a href="https://tolzmwil.github.io/Cookie-Clicker-Source-Code/" target="_blank">play Cookie Clicker over here</a>!<br>'+
-		'<small>(If for any reason, you are unable to access the game on the official URL, we are currently working on a second domain.)</small></div>';
-	}
 	Game.timedout=false;
 	Game.Timeout=function()
 	{
@@ -13676,8 +13668,6 @@ window.onload=function()
 	
 	if (!Game.ready)
 	{
-		if (top!=self) Game.ErrorFrame();
-		else
 		{
 			console.log('[=== '+choose([
 				'Oh, hello!',
