@@ -863,7 +863,6 @@ Game.Launch=function()
 	'<div class="listing">&bull; tons of other miscellaneous fixes and additions</div>'+
 	'<div class="listing">&bull; Cookie Clicker is now 1 year old! (Thank you guys for all the support!)</div>'+
 	'<div class="listing warning">&bull; Note : this is a beta; you are likely to encounter bugs and oversights. Feel free to send me feedback if you find something fishy!</div>'+
-	
 	'</div><div class="subsection update small">'+
 	'<div class="title">18/05/2014 - better late than easter</div>'+
 	'<div class="listing">&bull; bunnies and eggs, somehow</div>'+
