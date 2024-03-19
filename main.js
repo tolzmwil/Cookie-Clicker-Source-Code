@@ -863,6 +863,7 @@ Game.Launch=function()
 	'<div class="listing">&bull; tons of other miscellaneous fixes and additions</div>'+
 	'<div class="listing">&bull; Cookie Clicker is now 1 year old! (Thank you guys for all the support!)</div>'+
 	'<div class="listing warning">&bull; Note : this is a beta; you are likely to encounter bugs and oversights. Feel free to send me feedback if you find something fishy!</div>'+
+	
 	'</div><div class="subsection update small">'+
 	'<div class="title">18/05/2014 - better late than easter</div>'+
 	'<div class="listing">&bull; bunnies and eggs, somehow</div>'+
@@ -1100,6 +1101,14 @@ Game.Launch=function()
 		Game.Loader.domain='img/';
 		Game.Loader.loaded=Game.Init;
 		Game.Loader.Load(['filler.png']);
+	}
+	Game.ErrorFrame=function()
+	{
+		l('javascriptError').innerHTML=https://tolzmwil.github.io/Cookie-Clicker-Source-Code/
+		'<div class="title">Oops. Wrong address!</div>'+
+		'<div>It looks like you\'re accessing Cookie Clicker from another URL than the official one.<br>'+
+		'You can <a href="https://tolzmwil.github.io/Cookie-Clicker-Source-Code/" target="_blank">play Cookie Clicker over here</a>!<br>'+
+		'<small>(If for any reason, you are unable to access the game on the official URL, we are currently working on a second domain.)</small></div>';
 	}
 	Game.timedout=false;
 	Game.Timeout=function()
